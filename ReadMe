@@ -1,14 +1,13 @@
 The SJ-JG Messaging Protocol is a lightweight messaging protocol designed to for rapid information transfer across network endpoints. 
 
-The SJ-JG protocol allows for two way encrypted messaging designed to promote system integrity and clarity between sender and reciever roles based in Auckland and Sydney. The protocol acts by 
-placing limits on message transfer rate (MRT), to ensure users across the network can receive information accurately without creating memory exceptions. 
+The SJ-JG protocol allows for two way encrypted messaging designed to promote system integrity and clarity between sender and reciever roles based in Auckland and Sydney. 
 
-System messaging takes place in GMT+10 and GMT+12 in the morning and evening and KYL codes can be used (though are not mandatory) to sign off message network packets. 
-Minimal message traffic is expected across the network outside of these times but no penalties are applied when messaging velocity is increased. 
+The protocol acts by placing limits on message transfer rate (MRT), to ensure users across the network can receive information accurately without creating memory exceptions. 
 
-The protocol has been designed for international information transfer. For close proximity messaging, this protocol is overridden by the NU-CASTLE Protocol, which allows high volume information transfer 
-without an upper limit and provides infrastructure and provides high level support for integration with the critical systems (i.e. MISSY). 
+System messaging takes place in GMT+10 and GMT+12 in the morning and evening and KYL codes can be used (though are not mandatory) to sign off message network packets. Minimal message traffic is expected across the network outside of these times but no penalties are applied when messaging velocity is increased. 
+
+The protocol has been designed for international information transfer. For close proximity messaging, this protocol is overridden by the NU-CASTLE Protocol, which allows high volume information transfer without an upper limit and provides high level support for integration with other critical systems (i.e. MISSY). 
 
 While the protocol is fault tolerant and robust, in the event that an error occurs, the UR code should be applied (and can be applied on repeat) to restore system integrity, and direct communication between users 
-shoud be  established to to ensure equilibrium is maintained across the system. 
+shoud be  established to ensure equilibrium is maintained across the system. 
 
