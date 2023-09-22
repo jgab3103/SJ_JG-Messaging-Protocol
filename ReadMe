@@ -6,7 +6,7 @@ The protocol acts by placing limits on message transfer rate (MRT), to ensure us
 
 System messaging takes place in GMT+10 and GMT+12 in the morning and evening and KYL codes can be used (though are not mandatory) to sign off message network packets. Minimal message traffic is expected across the network outside of these times but no penalties are applied when messaging velocity is increased. 
 
-The protocol has been designed for international information transfer. For close proximity messaging, this protocol is overridden by the NU-CASTLE Protocol, which allows high volume information transfer without an upper limit and provides high level support for integration with other critical systems (i.e. MISSY). 
+The protocol has been designed for international information transfer. For close proximity messaging, this protocol is overridden by the NU-CASTLE Protocol, which allows high volume information transfer without an upper limit and provides high level support for intensive network integration while providing support for  other critical systems (i.e. MISSY). 
 
 While the protocol is fault tolerant and robust, in the event that an error occurs, the UR code should be applied (and can be applied on repeat) to restore system integrity, and direct communication between users shoud be  established to ensure equilibrium is maintained across the system. 
 
